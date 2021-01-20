@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(../Images/Gabungan.jpg);
+  }
+
+  .card{
+    width: 40vw;
+    height: 80vh;
+    background:url(../Images/Gabungan.jpg);
+    background-size: cover;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(255, 228, 72);
+    border: 3px solid rgb(235, 202, 57);
+  }
+  #emailID{
+    margin: 20px;
+}
+#emailID input{
+  border-radius: 10px;
+  border: 0;
+  width: 20vw;
+  height: 3vh;
+  background-color: rgb(255, 149, 73);
+  padding: 5px;
+}
+
+#emailID label p{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .1rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-shadow: 0 1px rgb(0, 0, 0);
+}
+
+
+
+
+  #usernameID{
+      margin: 20px;
+  }
+  #usernameID input{
+    border-radius: 10px;
+    border: 0;
+    width: 20vw;
+    height: 3vh;
+    background-color: rgb(255, 149, 73);
+    padding: 5px;
+  }
+
+  #usernameID label p{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-shadow: 0 1px rgb(0, 0, 0);
+  }
+
+  #passwordID{
+    margin: 20px;
+}
+  #passwordID input{
+    border-radius: 10px;
+    border: 0;
+    width: 20vw;
+    height: 3vh;
+    background-color: rgb(255, 149, 73);
+    padding: 5px;
+  }
+
+
+  #passwordID label p{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+
+#register{
+    width: 10vw;
+    height: 3.3vh;
+    border-radius: 15px;
+    border: 0;
+    background: linear-gradient(to top, #dcdf4c, #83ac4e);
+    cursor: pointer;  
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px black;
+    margin-top: 60px;
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-shadow: -1px 1px black;
+
+}
+
+#register:hover{
+    background: linear-gradient(to top, #a3a53e, #536b34);
+}

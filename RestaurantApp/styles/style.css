@@ -67,6 +67,29 @@ nav{
   height: 50px;
 }
 
+.header .username{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-left: 300px;
+  margin-top: 18px;
+  margin-bottom: auto;
+  justify-content: center;
+  
+  align-items: center;
+}
+.header .username img{
+  margin-right: 5px;
+}
+
+.header .username p{
+
+  text-align: center;
+  letter-spacing: .1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .header ul{
   width: 100%;
   display: flex;
@@ -435,9 +458,6 @@ figure{
 @media only screen and (max-width: 500px){
   .card{
     height: 38rem;
-    
-  }
-  .food-detail{
     
   }
 }
